@@ -1,5 +1,3 @@
-// src/app/api/webhook/route.ts
-
 import { NextRequest, NextResponse } from 'next/server'
 import { sendMessage } from './sendMessage'
 import { sendQuickReply } from './quickReply'
